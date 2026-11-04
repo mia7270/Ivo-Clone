@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>IVO One form registration</title></head>
+<body>
+  <!-- Netlify reads these static forms at deploy time. Keep outside x-dc. -->
+  <form name="newsletter" method="POST" data-netlify="true" style="display:none;" hidden>
+    <input type="hidden" name="form-name" value="newsletter">
+    <input type="email" name="email">
+  </form>
+  <form name="waitlist" method="POST" data-netlify="true" style="display:none;" hidden>
+    <input type="hidden" name="form-name" value="waitlist">
+    <input type="text" name="name">
+    <input type="email" name="email">
+  </form>
+</body>
+</html>
